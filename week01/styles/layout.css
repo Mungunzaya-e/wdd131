@@ -23,7 +23,7 @@ nav {
     align-items: center;
 }
 
-span {
+a {
     color: #0d2035;
     height: 100%;
     width: 25%;
@@ -32,9 +32,10 @@ span {
     justify-content: center;
     text-align: center;
     transition: 0.2s;
+    text-decoration: none;
 }
 
-span:hover {
+a:hover {
     background-color: #df8a00;
     color: #fff;
     font-size: 105%;
