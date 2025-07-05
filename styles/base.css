@@ -36,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-top: 1.8em;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 nav a {
