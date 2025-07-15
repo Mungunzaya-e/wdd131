@@ -1,0 +1,125 @@
+:root {
+    --color-1: #2e4045;
+    --color-2: #5e3c58;
+    --color-3: #83adb5;
+    --color-4: #c7bbc9;
+    --color-5: #ebe5e4;
+}
+
+@media screen and (min-width: 500px) {
+    
+
+    body {
+        font-family: Roboto, 'sans-serif';
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: var(--color-1);
+        margin: 0;
+        width: 100%;
+        padding: 0 1em;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    header p {
+        color: #fff;
+        font-family: 'Ephesis';
+        font-size: 45px;
+        font-weight: 400;
+        margin: 0 0 0 1em;
+    }
+
+    nav {
+        display: block;
+        width: 100%;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-content: flex-end;
+    }
+
+    .navigation a {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: large;
+        margin: 0;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        justify-self: end;
+        padding: 0;
+        width: 75%;
+    }
+
+    .navigation li {
+        display: block;
+        list-style: none;
+        width: 10vw;
+        text-align: center;
+        height: 50px;
+        align-content: center;
+        transition: 0.3s;
+    }
+
+    .navigation li:hover {
+        background-color: #223236;
+        cursor: pointer;
+    }
+
+    main {
+        width: 85%;
+        max-width: 85%;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .figure {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 2vw;
+        justify-content: center;
+    }
+
+    figure {
+        width: auto;
+        justify-items: center;
+        margin: auto;
+        background-color: var(--color-5);
+        padding-bottom: 1em;
+    }
+
+    img {
+        display: block;
+        width: 90%;
+        margin: 1em auto 0.5em auto;
+    }
+
+    footer {
+        background-color: var(--color-2);
+        margin-bottom: 0;
+        margin-top: 2em;
+        padding: 1em;
+    }
+
+    footer p {
+        color: #fff;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #menu {
+        display: none;
+    }
+}
