@@ -22,7 +22,7 @@ header {
     box-sizing: border-box;
 }
 
-header p {
+header h1 {
     color: #fff;
     font-family: 'Ephesis';
     font-size: 40px;
@@ -113,6 +113,11 @@ nav {
 
 .navigation li:hover {
     background-color: #355d65;
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    background-color: #355d65;
 }
 
 .show li {
@@ -122,4 +127,9 @@ nav {
 #menu.show::before {
 	content: "✕";
     font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
 }

@@ -27,7 +27,7 @@
         box-sizing: border-box;
     }
 
-    header p {
+    header h1 {
         color: #fff;
         font-family: 'Ephesis';
         font-size: 45px;
@@ -69,8 +69,7 @@
         transition: 0.3s;
     }
 
-    .navigation li:hover {
-        background-color: #223236;
+    .navigation a:hover {
         cursor: pointer;
     }
 
@@ -80,7 +79,7 @@
         margin: auto;
     }
 
-    h1 {
+    h2 {
         text-align: center;
     }
 
