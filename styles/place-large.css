@@ -1,0 +1,55 @@
+@media screen and (min-width: 750px) {
+    
+    header h1 {
+        margin: 1rem;
+    }
+
+    main {
+        position: relative;
+    }
+
+    .data, .weather {
+        position: absolute;
+        background-image: linear-gradient(#fff, #fff9);
+        padding-bottom: 0.5em;
+        border-radius: 20px;
+    }
+
+    .data {
+        top: 2vw;
+        left: 2vw;
+        width: 350px;
+    }
+
+    .weather {
+        bottom: 2vw;
+        right: 2vw;
+        width: 275px;
+    }
+
+    .weather h2, .data h2 {
+        margin-top: 0.5em;
+    }
+
+    .col {
+        font-size: 18px;
+        text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+    }
+
+    .weather img {
+        display: none;
+    }
+
+    .emoji {
+        display: inline;
+    }
+
+    .row {
+        grid-column-gap: 0.5em;
+    }
+
+    footer {
+        margin-top: 0.5em;
+    }
+
+}

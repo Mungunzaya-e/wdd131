@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Country Page - WDD 131 - Mungunzaya">
+    <title>Country Page - WDD 131 - Mungunzaya</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mongolia</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/mgl-hero-large.webp" media="(min-width: 1000px)">
+            <source srcset="images/mgl-hero-medium.webp" media="(min-width: 500px)">
+            <img src="images/mgl-hero-small.webp" alt="Mongolian Nomadic Life">
+        </picture>
+        <div class="data">
+            <h2>Data</h2>
+            <div class="row">
+                <div class="col">Capital:</div>
+                <div class="col">Ulaanbaatar</div>
+            </div>
+            <div class="row">
+                <div class="col">Official language:</div>
+                <div class="col">Mongolian</div>
+            </div>
+            <div class="row">
+                <div class="col">Area:</div>
+                <div class="col">1,564,116 sq km</div>
+            </div>
+            <div class="row">
+                <div class="col">Population:</div>
+                <div class="col">3,519,091</div>
+            </div>
+            <div class="row">
+                <div class="col">Time zone:</div>
+                <div class="col">UTC+7/+8</div>
+            </div>
+            <div class="row">
+                <div class="col">Currency:</div>
+                <div class="col">Tögrög (MNT)</div>
+            </div>
+            <div class="row">
+                <div class="col">Calling code:</div>
+                <div class="col">+976</div>
+            </div>
+        </div>
+        <div class="weather">
+            <h2>Weather <span class="emoji">⛅</span></h2>
+            <img src="images/weather-clouds-sun-icon.svg" alt="weather icon">
+            <div class="row">
+                <div class="col">Temperature:</div>
+                <div class="col"><span id="temp">10</span> °C</div>
+            </div>
+            <div class="row">
+                <div class="col">Conditions:</div>
+                <div class="col">Partly Cloudy</div>
+            </div>
+            <div class="row">
+                <div class="col">Wind:</div>
+                <div class="col"><span id="wind-speed">5</span> km/h</div>
+            </div>
+            <div class="row">
+                <div class="col">Wind Chill:</div>
+                <div class="col"><span id="wind-chill"></span></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> • Mungunzaya Enkhtuya • Mongolia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
