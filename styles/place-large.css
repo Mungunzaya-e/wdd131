@@ -31,6 +31,10 @@
         margin-top: 0.5em;
     }
 
+    .weather h2::after {
+        content: " ⛅";
+    }
+
     .col {
         font-size: 18px;
         text-shadow: 0 0 3px #fff, 0 0 3px #fff;
@@ -38,10 +42,6 @@
 
     .weather img {
         display: none;
-    }
-
-    .emoji {
-        display: inline;
     }
 
     .row {
