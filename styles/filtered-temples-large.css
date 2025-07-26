@@ -102,6 +102,7 @@
     img {
         display: block;
         width: 90%;
+        height: auto;
         margin: 1em auto 0.5em auto;
     }
 
