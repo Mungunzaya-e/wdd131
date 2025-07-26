@@ -139,8 +139,8 @@ function createTempleCard(temples) {
         templeImage.src = element.imageUrl;
         templeImage.alt = element.templeName;
         templeImage.loading = "lazy";
-        //templeImage.width = 400;
-        //templeImage.height = 250;
+        templeImage.width = 400;
+        templeImage.height = 250;
         templeCard.appendChild(templeImage);
 
         container.appendChild(templeCard);
