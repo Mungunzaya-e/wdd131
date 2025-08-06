@@ -1,0 +1,92 @@
+body {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #AB886D;
+    margin: 0;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script';
+    font-size: 5vw;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+div {
+    border-bottom: 1px solid #D6C0B3;
+    padding: 0.5em 1em 1em;
+}
+
+.name p:first-of-type {
+    font-style: italic;
+    font-size: 110%;
+    color: #AB886D;
+}
+
+.color div {
+    border: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.color-box1 {
+    background-color: #AB886D;
+    width: 50px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.color-box2 {
+    background-color: #493628;
+    width: 50px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.color-box3 {
+    background-color: #D6C0B3;
+    width: 50px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.color-box4 {
+    background-color: #E4E0E1;
+    width: 50px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.wireframe {
+    display: flex;
+    flex-direction: column;
+}
+
+.wireframe a {
+    color: #493628;
+    text-decoration: none;
+    margin: 0.5em
+}
+
+.wireframe a:hover {
+    color: #AB886D;
+}
+
+footer {
+    padding: 1em;
+    background-color: #493628;
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+}
+
