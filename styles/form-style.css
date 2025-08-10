@@ -25,6 +25,7 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    padding: 1em;
 }
 
 select, input, textarea {
@@ -36,7 +37,7 @@ input[type="radio"] {
 }
 
 label {
-    margin: 0.5em 1em;
+    margin: 0.5em 0;
     font-weight: 600;
     font-size: 120%;
 }
@@ -141,6 +142,7 @@ footer p {
     color: #fff;
     text-align: center;
     margin: 10px;
+    font-size: 14px;
 }
 
 
@@ -153,6 +155,11 @@ footer p {
     h1 {
         font-size: 4vw;
     }
+
+    footer p {
+        font-size: 16px;
+    }
+
 }
 
 
