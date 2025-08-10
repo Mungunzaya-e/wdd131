@@ -18,11 +18,11 @@
     </header>
     <main>
         <form action="review.html" method="get">
-            <label>Product Name</label>
+            <label for="name-select">Product Name</label>
                 <select id="name-select" name="name-select" required>
                     <option value="" disabled selected>Select a Product...</option>
                 </select>
-            <label>Overall Rating</label>
+            <label for="star-five">Overall Rating</label>
                 <div class="stars">
                     <input type="radio" id="star-five" name="stars" value="5" required><label for="star-five"></label>
                     <input type="radio" id="star-four" name="stars" value="5" required><label for="star-four"></label>
@@ -30,16 +30,16 @@
                     <input type="radio" id="star-two" name="stars" value="5" required><label for="star-two"></label>
                     <input type="radio" id="star-one" name="stars" value="5" required><label for="star-one"></label>
                 </div>
-            <label>Date of Installation</label>
+            <label for="installation-date">Date of Installation</label>
                 <input type="date" id="installation-date" name="date" required>
             <label class="feature">What features do you think are useful? (Check all that apply.)</label>
                 <div><input type="checkbox" id="durability" name="feature" value="Durability"><label class="checkbox" for="durability">Durability</label></div>
                 <div><input type="checkbox" id="ease" name="feature" value="Ease of Use"><label class="checkbox" for="ease">Ease of use</label></div>
                 <div><input type="checkbox" id="performance" name="feature" value="Performance"><label class="checkbox" for="performance">Performance</label></div>
                 <div><input type="checkbox" id="design" name="feature" value="Design"><label class="checkbox" for="design">Design</label></div>
-            <label>Written Review</label>
+            <label for="review">Written Review</label>
                 <textarea id="review" name="review"></textarea>
-            <label>User name</label>
+            <label for="name">User name</label>
                 <input type="text" id="name" name="name">
             <input type="submit" value="Send review">
         </form>
