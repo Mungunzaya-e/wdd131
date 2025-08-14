@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mungunzaya Enkhtuya">
+    <meta name="description" content="WDD 131 - Project">
+    <title>Journal - WDD 131 Project - Mungunzaya</title>
+    <link rel="stylesheet" href="styles/journal-pals.css">
+    <link rel="stylesheet" href="styles/journal-pals-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="scripts/journal-pals.js" defer></script>
+</head>
+<body>
+    <header>
+        <a id="menu" href="#"></a>
+        <div class="header">
+            <h1>E & E</h1>
+            <h1 class="title">Journal Pals</h1>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="journal-pals.html">Home</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="track.html">Track</a></li>
+                <li><a href="list.html">List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>My Journal</h1>
+            <textarea id="journalEntry" placeholder="Write your thoughts here..."></textarea>
+            <button onclick="saveEntry()">Save Entry</button>
+
+            <h2>Previous Entries</h2>
+            <div id="entriesContainer"></div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> • Mungunzaya Enkhtuya • Mongolia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+:root {
+    --color-1: #896b53;
+    --color-2: #493628;
+    --color-3: #D6C0B3;
+    --color-4: #E4E0E1;
+}
+
+@media screen and (min-width: 750px) {
+    #menu {
+        display: none;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .header {
+        width: 25vw;
+        margin-left: 10vw;
+        height: 7em;
+        border-left: 2px solid #000;
+        border-right: 2px solid #000;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 10vw 1em 0;
+    }
+
+    .navigation li {
+        display: block;
+        background-color: #fff;
+        width: 10vw;
+        margin-left: 1em;
+        justify-content: center;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .navigation li:hover {
+        background-color: var(--color-4);
+    }
+
+    .navigation a {
+        color: #000;
+        text-align: center;
+        margin: auto;
+    }
+
+    .hero div {
+        width: 60vw;
+        margin: auto;
+        left: 20vw;
+        top: 10vw;
+        background-image: linear-gradient(#E4E0E188, #E4E0E1);
+    }
+
+    .hero h2 {
+        font-family: 'Dancing Script';
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .hero p {
+        text-align: center;
+    }
+
+    .start {
+        position: absolute;
+        top: 50vw;
+        width: 15vw;
+        left: 42.5vw;
+    }
+
+    .container h2 {
+        padding-left: 12vw;
+        text-align: left;
+    }
+
+    .habit-button {
+        display: flex;
+        width: 80vw;
+        margin: auto;
+    }
+}
